@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Website - Kontakt</title>
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ccd134c6a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar nav-sub-color">
+
+        <a href="index.html" class="nav-logo"><img src="./img/christmas-tree.png" alt="Drzewo">Forest</a>
+
+        <div class="nav-items">
+            <a href="index.html" class="nav-link home">Home</a>
+            <a href="index.html" class="nav-link about-us">O nas</a>
+            <a href="index.html" class="nav-link offer">Oferta</a>
+            <a href="contact.html" class="nav-link contact">Kontakt</a>
+        </div>
+    </nav>
+
+    <header class="navbar-mobile nav-sub-color">
+        <a href="index.html" class="nav-logo"><img src="./img/christmas-tree.png" alt="Drzewo">Forest</a>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navbar-mobile-menu">
+            <ul>
+                <li><a href="index.html" class="nav-mobile-link-home">Home</a></li>
+                <li><a href="index.html" class="nav-mobile-link-about">O nas</a></li>
+                <li><a href="index.html" class="nav-mobile-link-offer">Oferta</a></li>
+                <li><a href="contact.html" class="nav-mobile-link-contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h2 class="section-heading">Formularz kontaktowy</h2>
+
+
+    <form action="mail.php" method="post" class="contact-form">
+        <div class="contact-box">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="contact-box">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="contact-box">
+            <label for="msg">Wiadomość:</label>
+            <textarea name="msg" id="msg" required></textarea>
+        </div>
+
+        <button>Wyślij</button>
+        <p class="msg-status"></p>
+    </form>
+
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8980500890098!2d19.89026927752596!3d50.088195613379604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1693324164387!5m2!1spl!2spl"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-logo"><img src="./img/christmas-tree.png" alt="Drzewo">Forest</p>
+            <div class="footer-info">
+                <div class="footer-styles footer-about-us">
+                    <h3>O nas</h3>
+                    <a href="#">Historia</a>
+                    <a href="#">Parki</a>
+                    <a href="#">Opinie</a>
+                </div>
+                <div class="footer-styles footer-our-company">
+                    <h3>Nasza firma</h3>
+                    <a href="#">Praca</a>
+                    <a href="#">Kadry</a>
+                    <a href="#">Zarząd</a>
+                </div>
+                <div class="footer-styles footer-docs">
+                    <h3>Dokumenty</h3>
+                    <a href="#">Wnioski</a>
+                    <a href="#">Rezerwacje</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-general-info">
+            <p>&copy;2021 Forest Group Company Ltd.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
