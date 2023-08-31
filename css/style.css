@@ -42,6 +42,10 @@ html {
 	right: 0;
 }
 
+/* .active {
+	
+} */
+
 .burger.open span:nth-child(1) {
 	transform: rotate(45deg) translateY(11px);
 }
